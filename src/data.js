@@ -1,16 +1,16 @@
 export const data = [
-  { id: 1, name: "john" },
-  { id: 2, name: "peter" },
-  { id: 3, name: "susan" },
-  { id: 4, name: "anna" },
+  { id: 1, name: "nilesh" },
+  { id: 2, name: "sunil" },
+  { id: 3, name: "mohan" },
+  { id: 4, name: "jagruti" },
 ];
 
 export const people = [
-  { id: 1, name: "bob", nickName: "Stud Muffin" },
-  { id: 2, name: "peter" },
+  { id: 1, name: "varun", nickName: "vr" },
+  { id: 2, name: "shubodh" },
   {
     id: 3,
-    name: "oliver",
+    name: "Bhagyodya",
     images: [
       {
         small: {
@@ -19,5 +19,5 @@ export const people = [
       },
     ],
   },
-  { id: 4, name: "david" },
+  { id: 4, name: "Derec" },
 ];
