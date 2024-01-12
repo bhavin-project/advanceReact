@@ -9,7 +9,9 @@ import "./App.css";
 // import Starter from "./02-useeffect/04-togglebutton";
 // import { Morereturns } from "./03-conditional-rendering/01-multiplereturn";
 // import Starter from "./03-conditional-rendering/02-multiplereturnfetchdata2";
-import Starter from "./03-conditional-rendering/04-shortcircuitoverview";
+// import Starter from "./03-conditional-rendering/04-shortcircuitoverview";
+// import Starter from "./03-conditional-rendering/05-shortcircuitetest";
+import Starter from "./03-conditional-rendering/06-togglealert";
 
 function App() {
   return <Starter />;
