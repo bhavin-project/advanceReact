@@ -11,11 +11,16 @@ import "./App.css";
 // import Starter from "./03-conditional-rendering/02-multiplereturnfetchdata2";
 // import Starter from "./03-conditional-rendering/04-shortcircuitoverview";
 // import Starter from "./03-conditional-rendering/05-shortcircuitetest";
-import Starter from "./03-conditional-rendering/06-togglealert";
-
+// import Starter from "./03-conditional-rendering/07-userlogin";
+// import Starter from "./04-project-structure/navbar/navbar";
+// import { HomeComp, AboutComp } from "./04-project-structure/page/";
+import Starter from "./05-javascript-concepts/list.jsx";
 function App() {
-  return <Starter />;
-  // return <Morereturns />;
+  return (
+    <div>
+      <Starter></Starter>
+    </div>
+  );
 }
 
 export default App;
