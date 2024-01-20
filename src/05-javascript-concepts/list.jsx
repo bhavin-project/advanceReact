@@ -1,19 +1,32 @@
-import { people } from "../data";
+// import { people } from "../data";
 
-const PeopleData = () => {
+// const PeopleData = () => {
+//   return (
+//     <section>
+//       {people.map((person) => {
+//         const { name, nickName, id } = person;
+//         return (
+//           <div key={id}>
+//             <h1>{name}</h1>
+//             <h2>{id}</h2>
+//             <h3>{nickName}</h3>
+//           </div>
+//         );
+//       })}
+//     </section>
+//   );
+// };
+// export default PeopleData;
+
+import { people } from "../data.js";
+import Person from "./person.jsx";
+const List = () => {
   return (
-    <section>
+    <div>
       {people.map((person) => {
-        const { name, nickName, id } = person;
-        return (
-          <div key={id}>
-            <h1>{name}</h1>
-            <h2>{id}</h2>
-            <h3>{nickName}</h3>
-          </div>
-        );
+        return <Person key={person.name} {...person} />;
       })}
-    </section>
+    </div>
   );
 };
-export default PeopleData;
+export default List;
