@@ -14,11 +14,14 @@ import "./App.css";
 // import Starter from "./03-conditional-rendering/07-userlogin";
 // import Starter from "./04-project-structure/navbar/navbar";
 // import { HomeComp, AboutComp } from "./04-project-structure/page/";
-import Starter from "./05-javascript-concepts/list.jsx";
+// import Starter from "./05-javascript-concepts/list.jsx";
+// import { ControlledInput } from "./06-from-data/01-input-controlled.jsx";
+// import { UserInputData } from "./06-from-data/02-user-input";
+import { MultipleInputData } from "./06-from-data/03-multiple-input";
 function App() {
   return (
     <div>
-      <Starter></Starter>
+      <MultipleInputData></MultipleInputData>
     </div>
   );
 }
